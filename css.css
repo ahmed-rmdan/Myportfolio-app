@@ -1,0 +1,493 @@
+
+/* navbar */
+.nav{
+    display: flex;
+   position: sticky;  
+    justify-content: space-between;
+    height: 80px;
+   top:0; 
+    align-items: center;
+    background-color: #fafafa;
+    z-index: 1000;
+
+}
+
+.button-nav{
+border: none;
+background-color: white;
+font-size: medium;
+color: blue;
+cursor: pointer;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mylogo{
+    
+   font-weight: bolder;
+    font-size: 25px;
+
+   justify-content: center;
+    font-style:oblique;
+    color: darkblue;
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    align-items: center;
+    
+}
+.logo-button{
+    border: none;
+    background-color: white;
+}
+.logo-image{
+
+    width: 100px;
+    height: 70px;
+    
+    border: none;
+}
+.navigator{
+    display: flex;
+   padding-right: 4%;
+   justify-content: space-between;
+   gap: 50px;
+    
+}
+.button-non-active{
+    border: none;
+background-color: white;
+font-size: medium;
+color: blue;
+cursor: pointer;
+opacity: 20%;
+transition: all 0.5s 0.001s ease;
+
+}
+.button-nav-active{
+    border: none;
+background-color: white;
+font-size: medium;
+color: darkblue;
+cursor: pointer;
+transform: scale(1.25);
+font-weight: bold;
+opacity: 100%;
+transition: all 0.5s 0.001s ease;
+}
+
+/* section1 */
+
+.section1{
+    margin-top: 100px;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    height:650px;
+   padding-bottom: 150px;
+   transition: all 2s 0.5s ease;
+    
+}
+.section1a{
+    display: flex;
+    width:55%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.section1b{ 
+width: 45%;
+}
+
+.img{
+    margin-top: -50px;
+    margin-bottom: -100px;
+   width: 100%;
+   height: 650px;
+}
+
+
+.header1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+   font-size: 30px;
+    align-items: center;  
+    
+}
+.header1 h1{
+height: 10px;
+
+}
+.header1 h2{
+    height: 5px;
+   
+    }
+.header2{
+    display: none;
+}
+
+.header2-visible{
+   margin-top: -7px;
+    display: flex;
+    height: 20px;
+    font-display:inherit;
+    justify-content: center;
+    font-size: 70px;
+    color: darkblue;
+}
+.desc{
+    margin-top: -20px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.social{
+    margin-top: -40px;
+    display: flex;
+    flex-direction: row;
+   align-self: center;
+  justify-content: space-around;
+  height: 200px;
+    width: 45%;
+ 
+}
+.sociallogo{
+height: 50px;
+width: 50px;
+cursor: pointer;
+   
+}
+/* section2 */
+.section2{
+display: flex;
+
+flex-direction: column;
+height: 800px;
+background-color: #fafafa;
+align-items: center;
+justify-content: center;
+align-self: center;
+
+}
+.section2 h1{
+    display: flex;
+    justify-content: center;
+    color: darkblue;
+    font-size: 60px;
+    height: 80px;
+    text-decoration: underline;
+}
+.skillcontainer{
+    display: flex;
+  flex-wrap: wrap;
+    width: 60%;
+    height: 700px;
+align-content: start;
+gap: 5%;
+justify-content: center;
+row-gap: 50px;
+
+}
+.skill{
+width: 25%;
+height: 100px;
+opacity: 0%;
+
+}
+.skill-1{
+    opacity: 100%;
+  transition: all 0.5s 0s ease;
+}
+.skill-2{
+    opacity: 100%;
+  transition: all 0.5s 0.5s ease;
+}
+.skill-3{
+    opacity: 100%;
+  transition: all 0.5s 1s ease;
+}
+.skill-4{
+    opacity: 100%;
+  transition: all 0.5s 1.5s ease;
+}
+.skill-5{
+    opacity: 100%;
+  transition: all 0.5s 2s ease;
+}
+.skill-6{
+    opacity: 100%;
+  transition: all 0.5s 2.5s ease;
+}
+.skill-7{
+    opacity: 100%;
+  transition: all 0.5s 3s ease;
+}
+.skill-8{
+    opacity: 100%;
+  transition: all 0.5s 3.5s ease;
+}
+.skill-9{
+    opacity: 100%;
+  transition: all 0.5s 4s ease;
+}
+.skill-10{
+    opacity: 100%;
+  transition: all 0.5s 4.5s ease;
+}
+.skill-11{
+    opacity: 100%;
+  transition: all 0.5s 5s ease;
+}
+
+/* section3 */
+
+.section3{
+display: flex;
+flex-direction: column;
+height: 1000px;
+align-items: center;
+justify-content: center;
+background-color: #fafafa;
+width: 100%;
+transition: all 2s 0.5s ease;
+}
+.section3 h2{
+    display: flex;
+
+    height: 100px;
+    align-items: center;
+    font-size: 50px;
+    color: darkblue;
+    border-bottom: 3px solid darkblue;
+    font-weight: bold;
+}
+.project-section{
+    display: flex;
+    height: 7000px;
+    width: 100%;
+}
+.button-prev{
+    display: flex;
+    margin-right: 30px;
+    justify-content: right;
+    width:25%;
+    align-items: center;   
+     margin-top: -120px;  
+}
+.button-prev button{
+    border: none;
+    background-color:#fafafa ;
+    cursor: pointer;
+    transform: scale(1.25);
+
+}
+.button-prev button:hover{
+    border: none;
+    
+    background-color:#fafafa ;
+    cursor: pointer;
+    transform: scale(1.35);
+
+}
+
+.button-next{
+    display: flex;
+    width: 25%;
+    justify-content: left;
+    margin-left: 30px;
+    align-items: center; 
+    margin-top: -120px;
+    
+}
+.button-next button{
+    border: none;
+    background-color:#fafafa ;
+    cursor: pointer;
+ transform: scale(1.25);
+}
+.button-next button:hover{
+    border: none;
+    background-color:#fafafa ;
+    cursor: pointer;
+ transform: scale(1.35);
+}
+.projects{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+overflow: hidden;
+height: 700px;
+}
+.project{
+    display: flex;
+align-items: center;
+ height:700px ;
+    width: 100%;
+    background-color: white;   
+    flex-direction: column;
+    min-width: 100%;
+    border-radius: 50px;
+}
+.project-1{
+    min-width: 100%;
+}
+.project-2{
+    min-width: 100%;
+    transform: translateX(100%);
+}
+.project-3{
+    min-width: 100%;
+    transform: translateX(200%);
+}
+.project h3{
+    text-align: center;
+    color: darkblue;
+    font-size: 45px;
+    height: 60px;
+    text-decoration: underline;
+}
+.project img{
+    height: 200px;
+    width: 90%;
+}
+.project p{
+   
+    text-align: center;
+    width: 95%;
+    height:150px ;
+    font-size: x-large;
+   
+}
+.github img{
+    width: 40px;
+    height: 40px;
+    }
+
+
+/* section4 */
+
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    height: 1200px;
+    transition: all 2s 0.5s ease;
+}
+.section4 h1{
+    font-size: 60px;
+    color: darkblue;
+    height: 60px;
+    text-decoration-line: underline;
+}
+.servicebuttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    height: 50px;
+}
+.sbutton{
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  width:200px;
+  border-radius: 20px ;
+  font-size:15px;
+  border: none;
+}
+.service-active{
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width:200px;
+    border-radius: 20px ;
+    font-size:15px;
+    border: none;
+    transform: scale(1.25);
+    transition: all 0.2s 0s ease;
+  }
+
+
+.Services{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fafafa;
+    width: 60%;
+    box-shadow: 2px 2px 10px #787474;
+    height: 800px;
+    border-radius: 20px;
+}
+
+.service{
+    display: flex;
+   align-items: center;
+   
+   width: 85%;
+    flex-direction: column;
+}
+.service h2{
+    font-size: xx-large;
+    font-weight: bolder;
+    color: darkblue;
+}
+.service img{
+    width: 80%;
+    height: 450px;
+}
+.service p{
+    font-size: larger;
+    width: 90%;
+    
+}
+.service ul{
+margin-top: -10px;
+   font-size: larger;
+   width: 85%;
+}
+.section5{
+   margin-top: -20px;
+   display: flex;
+   flex-direction: column;
+    background-color: rgba(32, 32, 32, 0.952);
+    align-items: center;
+    gap: 70px;
+    height: 200px;
+    transition: all 2s 0.5s ease;
+}
+.section5 h1{
+    color: white;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.section6{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transition: all 2s 0.5s ease;
+    
+}
+
+.section{
+    
+margin-left: -600px;
+opacity: 0%;
+}
