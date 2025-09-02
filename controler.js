@@ -55,6 +55,7 @@ const text3=document.querySelector('.text-3')
 const text4=document.querySelector('.text-4')
 const navbutton=document.querySelectorAll('.button-nav')
 const skillbutton=document.querySelector('.skillbutton')
+const firstsection=document.querySelector('.section')
 const skillsection=document.querySelector('.section2')
 const servicebutton=document.querySelector('.servicebutton')
 const servicesection=document.querySelector('.section4')
@@ -100,7 +101,7 @@ skillbutton.addEventListener('click',function(){
 
 servicebutton.addEventListener('click',function(){
  
-    servicesection.scrollIntoView({behavior:'smooth'})
+    firstsection.scrollIntoView({behavior:'smooth'})
 })
 projectsbutton.addEventListener('click',function(){
  
@@ -218,6 +219,7 @@ if(entrys.isIntersecting){
 
 else return;
 },{root:null,threshold:0})
+
 sections.forEach(elm=>{
     sectionsobserver.observe(elm)
 })
