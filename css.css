@@ -625,25 +625,28 @@ opacity: 0%;
 
 .section1{
     font-size: 2.3em;
-    height: 450px;
+    height: 400px;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 5px;
     padding-bottom: 0px;
   }
 .section1a{
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
+    height: 100%;
+    text-align: center;
 }
 .section1b{
     align-items: center;
     justify-content: center;
-    height: 400px;
-}
-.img{
     height: 100%;
 }
+.img{
+    height: 85%;
+    margin-top: 0px;
+}
 .header2-visible{
-    font-size: 0.8em;
+    font-size: 0.75em;
 }
 .social{
     width: 50%;
