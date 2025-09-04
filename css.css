@@ -12,7 +12,7 @@ body{
     height: 80px;
    top:0; 
     align-items: center;
-    background-color: #fafafa;
+    background-color: white;
     z-index: 1000;
     font-size: 1em;
     min-width: 100%;
@@ -273,10 +273,11 @@ flex-direction: column;
 height: 1000px;
 align-items: center;
 justify-content: center;
-background-color: #fafafa;
+background-color: white;
 width: 100%;
 transition: all 2s 0.5s ease;
 font-size: 2em;
+padding: 0;
 }
 .section3 h2{
     display: flex;
@@ -292,52 +293,53 @@ font-size: 2em;
     display: flex;
     height: 7000px;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2%;
 }
+
 .button-prev{
     display: flex;
-    margin-right: 30px;
     justify-content: right;
     width:25%;
     align-items: center;   
-     margin-top: -120px;  
+    height: 10%;
+    width: 5%;
+    background-color: white;
+    border: white;
 }
-.button-prev button{
+.button-prev img{
+    width: 100%;
+      height: 100%;
+}
+.button-prev :hover{
     border: none;
-    background-color:#fafafa ;
     cursor: pointer;
-    transform: scale(1.25);
-
+    transform: scale(1.15);
 }
-.button-prev button:hover{
-    border: none;
-    
-    background-color:#fafafa ;
-    cursor: pointer;
-    transform: scale(1.35);
 
-}
 
 .button-next{
     display: flex;
     width: 25%;
-    justify-content: left;
-    margin-left: 30px;
-    align-items: center; 
-    margin-top: -120px;
-    
+    justify-content: left; 
+    align-items: center;  
+     height: 10%;
+    width: 5%;
+    background-color: white;
+    border: white;   
 }
-.button-next button{
+.button-next :hover{
     border: none;
-    background-color:#fafafa ;
+  
     cursor: pointer;
- transform: scale(1.25);
+ transform: scale(1.15);
 }
-.button-next button:hover{
-    border: none;
-    background-color:#fafafa ;
-    cursor: pointer;
- transform: scale(1.35);
+.button-next img{
+    width: 100%;
+      height: 100%;
 }
+
 .projects{
     width: 50%;
     display: flex;
@@ -417,7 +419,7 @@ line-height: 1.5;
 
 
 /* section4 */
-
+/* 
 .section4{
     display: flex;
     flex-direction: column;
@@ -499,7 +501,7 @@ line-height: 1.5;
 margin-top: -10px;
    font-size: larger;
    width: 85%;
-}
+} */
 .section5{
    margin-top: -20px;
    display: flex;
@@ -562,6 +564,13 @@ opacity: 0%;
   body {
     font-size: 7px;
   }
+  .section2{
+    height: 700px;
+  }
+  .slider-button{
+    width: 6%;
+  }
+  
 
 }
 @media only screen and (max-width: 768px ) {
@@ -581,6 +590,9 @@ opacity: 0%;
  .project{
     gap: 40px;
  }
+ .slider-button{
+    width: 7%;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -591,13 +603,14 @@ opacity: 0%;
   .navigator{
     gap:1.5em;
     width: 55%;
-    font-size: 0.85em;
+    font-size: 0.8em;
   }
   .logo{
     width: 40%;
+    padding-left: -7%;
   }
   .logo-button{
-    width: 50px;
+    width: 40px;
     
   }
   .logo-image{
@@ -605,6 +618,9 @@ opacity: 0%;
   }
   .mylogo{
     font-size: 1.8em;
+  }
+  .button-nav{
+    font-size: 1.6em;
   }
 
 .section1{
@@ -641,21 +657,34 @@ opacity: 0%;
 .skillcontainer{
     height: 400px;
     width: 95%;
-    gap: 40px;
+    gap: 35px;
 }
 .section3{
-    gap: 20px;
+    gap: 0px;
     height: 700px;
+    justify-content: start;
+}
+.section3 h2{
+    height: 30px;
+}
+.project-section{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
 }
 .projects{
-    width: 75%;
-    height: 650px;
+  width: 75%;
+    height: 100%;
+
+  
    
 }
 .project{
-    width: 90%;
+    min-width: 100%;
     font-size: 0.8em;
-    gap: 10px;
+    gap: 20px;
     height: 500px;
     border-radius: 20px;
     background-color: rgb(224, 221, 216);
@@ -667,30 +696,13 @@ opacity: 0%;
 .project h3{
     height: 40px;
 }
+.slider-button{
+width: 10%;
+}
 .github{
     width: 70%;
 }
-.button-next{
-    width: 12%;
-    margin-top: -230px;
-}
-.button-next button{
- width: 100%;
-}
-.button-next img{
-    width: 130%;
-}
-.button-prev {
-    width: 12%;
-      margin-top: -230px;
 
-}
-.button-prv button{
- width: 100%;
-}
-.button-prev img{
-    width: 130%;
-}
 .section5{
     font-size: 2.3em;
     height: 140px;
@@ -698,9 +710,11 @@ opacity: 0%;
 
 }
 .section6{
-    font-size: 2.2em;
+    font-size: 1.7em;
 }
 
-
+.section{
+    margin-left: -300px;
+}
 
 }
